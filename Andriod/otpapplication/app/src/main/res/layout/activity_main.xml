@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="156dp"
+        android:src="@drawable/otpimage" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="20dp"
+        android:background="#952E95"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="OTP verification"
+        android:textSize="35dp"/>
+
+    <EditText
+        android:id="@+id/editOtp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:height="25dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="Enter Otp"
+        android:textColorHint="@color/black"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColor="#FD00AD"
+        android:textSize="30dp"/>
+
+</LinearLayout>
